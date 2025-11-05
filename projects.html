@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projetos - ONG MEV</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Portal MEV - Mantenha a Esperança Viva</h1>
+    <nav role="navigation">
+      <ul>
+        <li><a href="../index.html">Início</a></li>
+        <li><a href="../about.html">Sobre</a></li>
+        <li><a href="projects.html" class="active">Projetos</a></li>
+        <li><a href="../contact.html">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="page-content">
+    <section>
+      <h2>Nossos Projetos</h2>
+
+      <div class="project-filters">
+        <button data-filter="all">Todos</button>
+        <button data-filter="educacao">Educação</button>
+        <button data-filter="alimentacao">Alimentação</button>
+        <button data-filter="saude">Saúde</button>
+      </div>
+
+      <div class="project-list">
+        <article data-category="educacao">
+          <img src="../imagens/refescolar.jpg" alt="Projeto Educar - Oficinas e cursos">
+          <h3>Projeto Educar</h3>
+          <p>Oficinas de reforço escolar e cursos profissionalizantes para jovens.</p>
+        </article>
+
+        <article data-category="alimentacao">
+          <img src="../imagens/cbasica.jpg" alt="Projeto Alimentar - Cestas básicas">
+          <h3>Projeto Alimentar</h3>
+          <p>Distribuição semanal de cestas básicas para famílias em vulnerabilidade.</p>
+        </article>
+
+        <article data-category="saude">
+          <img src="../imagens/atmedico.jpg" alt="Projeto Cuidar - Atendimento médico">
+          <h3>Projeto Cuidar</h3>
+          <p>Atendimentos médicos gratuitos e campanhas de doação de sangue.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <div id="projectModal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h3 id="modalTitle"></h3>
+      <p id="modalDescription"></p>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 portal MEV | Todos os direitos reservados</p>
+  </footer>
+
+  <script src="../js/script.js"></script>
+</body>
+</html>
+
+
+
+
+
