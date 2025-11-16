@@ -51,8 +51,4 @@ Checklist de Entrega:
 - [✔] Componentes visuais e interativos implementados
 - [✔] Repositório público no GitHub com todos os arquivos acessíveis
 
-Como Visualizar:
-
-1. Acesse o repositório: [Experienciapraticai](https://github.com/malysommgm/Experienciapratica2)
-
 
