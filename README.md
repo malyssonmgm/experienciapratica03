@@ -1,54 +1,42 @@
-Projeto: Experiência Prática — Fases 2
+Experiência Prática — Fase 3
 
-Este projeto foi desenvolvido como parte da disciplina de Experiência Prática I, a Fase 2 aprimorou a interface visual com CSS3 moderno e componentes interativos.
+Este repositório contém a entrega da Fase 3. O objetivo desta etapa é consolidar os conhecimentos em HTML, CSS e JavaScript por meio da construção de uma aplicação web modular, funcional e bem estruturada.
 
- Fase 2 — Interface Visual com CSS3:
+Requisitos Atendidos:
 
-Nesta fase, o projeto foi transformado em uma interface visual moderna, responsiva e acessível, utilizando os recursos avançados do CSS3. A estilização foi modularizada e distribuída em arquivos específicos, garantindo organização e escalabilidade.
+Código JavaScript Modular:
+- Os arquivos JavaScript estão organizados por funcionalidade:
+- `spa.js`: navegação dinâmica entre páginas (SPA)
+- `interacoes.js`: menu, scroll suave, filtros e modais
+- `validacao.js`: validação de formulários
+- `templates.js`: mensagens reutilizáveis de carregamento e erro
 
-Sistema de Design:
+Funcionalidades Implementadas:
 
-- Paleta de cores com mais de 8 tonalidades:
-- Primárias, secundárias, neutras e de feedback (`--cor-primaria`, `--cor-secundaria`, `--cor-sucesso`, `--cor-erro`, etc.)
-- Tipografia hierárquica com 6 níveis (`--font-xs` a `--font-xxl`)
-- Sistema de espaçamento modular (`--esp-1` a `--esp-6`, de 8px a 64px)
-- Fontes definidas com `--fonte-principal` e `--fonte-secundaria`
-- Sombras e bordas padronizadas com `--sombra-suave` e `--radius`
-- Arquivo `variables.css` centraliza todas as definições do design system
+SPA (Single Page Application):
+- Navegação entre páginas sem recarregar o site
+- Sistema de rotas com `window.location.hash`
+- Carregamento dinâmico com `fetch()`
+- Reexecução automática de scripts após carregamento
 
-Estrutura Responsiva:
+Interações e Usabilidade:
+- Menu responsivo com botão hamburguer
+- Scroll suave para seções internas
+- Animações com `IntersectionObserver` ao exibir destaques
+- Filtro de projetos por categoria
+- Modal dinâmico para exibir detalhes dos projetos
 
-- Layout principal com CSS Grid (`body`, `#highlights`, `.grid-12`)
-- Flexbox aplicado em componentes internos (`nav`, `cards`, `formulários`)
-- Sistema de grid customizado com 12 colunas (`.grid-12`, `.col-6`, `.col-4`, etc.)
-- Mínimo de 5 breakpoints definidos para diferentes dispositivos (`responsive.css`)
-- Adaptação visual progressiva para telas pequenas (fontes, espaçamentos, colunas)
+Validação de Formulário:
+- Validação em tempo real com `checkValidity()`
+- Estilização visual para campos válidos/inválidos
+- Mensagens de erro dinâmicas e personalizadas
+- Bloqueio do envio do formulário se houver erros
 
-Navegação Interativa:
+Templates Reutilizáveis:
+- Mensagem de carregamento exibida durante requisições
+- Mensagem de erro genérica para falhas no carregamento
+- Uso de variáveis CSS para manter a identidade visual
 
-- Menu principal horizontal com espaçamento e alinhamento via Flexbox
-- Menu hambúrguer funcional para dispositivos móveis (`.menu-btn`)
-- Transições suaves e animações (`slideDown`) para navegação ativa
 
-Componentes Visuais:
-
-- Botões (`.btn`) com estados visuais: hover, active, disabled
-- Cards (`.card`) com sombra, bordas arredondadas e efeito de elevação
-- Badges (`.badge`) para categorização visual com variações de cor
-- Formulários estilizados com foco visual e validação clara (`.valid`, `.invalid`)
-- Alertas (`.alert`) para mensagens de feedback
-- Toasts (`.toast`) fixos e animados para notificações rápidas
-- Modais (`.modal`) com fundo escurecido e animação de entrada
-- Filtros de projeto com botões interativos (`.project-filters`)
-
-Checklist de Entrega:
-
-- [✔] Estrutura HTML semântica e organizada
-- [✔] Formulários completos com validação e máscaras
-- [✔] CSS modularizado em arquivos separados
-- [✔] Sistema de design com cores, tipografia e espaçamento
-- [✔] Layout responsivo com Grid e Flexbox
-- [✔] Componentes visuais e interativos implementados
-- [✔] Repositório público no GitHub com todos os arquivos acessíveis
 
 
